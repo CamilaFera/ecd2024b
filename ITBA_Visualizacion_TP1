@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP Camila Fera</title>
+  <style>
+    /* Estilos CSS para hacer la imagen responsiva */
+    img {
+      width: 100%;  /* La imagen ocupará el 100% del ancho del contenedor */
+      height: auto; /* Mantener la proporción de la imagen */
+      max-width: 100%; /* Asegura que la imagen no se estire más allá de su tamaño original */
+      margin-bottom: 20px; /* Añadir un margen entre las imágenes */
+    }
+
+    /* Contenedor para las imágenes */
+    .image-container {
+      width: 90%; /* Controlar el ancho del contenedor */
+      max-width: 900px; /* Limitar el tamaño máximo del contenedor */
+      margin: 0 auto; /* Centrar el contenedor */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; /* Centrado vertical */
+      text-align: center; /* Centrar el texto */
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Visualización de la Información - Trabajo Práctico 1 - Datos SUBE</h1>
+  
+  <!-- Contenedor para las imágenes -->
+  <div class="image-container">
+    <img src="https://raw.githubusercontent.com/CamilaFera/ecd2024b/refs/heads/main/Grafico1.png" alt="Gráfico 1">
+    <img src="https://raw.githubusercontent.com/CamilaFera/ecd2024b/refs/heads/main/Grafico2.png" alt="Gráfico 2">
+    <img src="https://raw.githubusercontent.com/CamilaFera/ecd2024b/refs/heads/main/Grafico3.png" alt="Gráfico 3">
+  </div>
+
+</body>
+</html>
